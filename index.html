@@ -1,44 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Farhaan's personal site</title>
-</head>
+  </head>
 
-<body>
-    <img src="./images/photo.png" style="max-height: 200px; max-width: 200px" alt="html image" />
-    <h1>Farhaan Shamsee</h1>
-    <!-- we can use i or em tag. The i tag only italicize the text, but the em tag also tells the browser to emphasis on the text -->
-    <!-- the same is the case with b and strong tag -->
-    <p>
-        <em><strong>DevOps/GitOps</strong> Engineer at Siemens Technology</em>
-    </p>
-    <p>
-        I am a DevOps Engineer working at Siemens Technology. Currently learning Python and Web Development. This page
-        show information about myself. I will update this page as I make progress in learning web development.
-    </p>
+  <body>
+    <table cellspacing="20">
+      <td>
+        <img
+          src="./images/photo.png"
+          style="max-height: 200px; max-width: 200px"
+          alt="html image"
+        />
+      </td>
+      <td>
+        <h1>Farhaan Shamsee</h1>
+        <!-- we can use i or em tag. The i tag only italicize the text, but the em tag also tells the browser to emphasis on the text -->
+        <!-- the same is the case with b and strong tag -->
+        <p>
+          <em><strong>DevOps/GitOps</strong> Engineer at Siemens Technology</em>
+        </p>
+        <p>
+          I am a DevOps Engineer working at Siemens Technology. Currently
+          learning Python and Web Development.
+        </p>
+        <p>
+          This page show information about myself. I will update this page as I
+          make progress in learning web development.
+        </p>
+      </td>
+    </table>
+
+    <!-- hr will add a horizontal line -->
     <hr />
     <h3>Tech Stack I currently work on</h3>
+    <!-- Below is the example of unordered list -->
     <ul>
-        <li>Kubernetes</li>
-        <li>Helm Charts</li>
-        <li>FluxCD</li>
-        <li>Docker</li>
-        <li>GitLab CI</li>
-        <li>
-            This will take you to my
-            <strong><a href="https://github.com/farhaan-shamsee/web_development">GitHub Repo</a></strong>
-        </li>
+      <li>Kubernetes</li>
+      <li>Helm Charts</li>
+      <li>FluxCD</li>
+      <li>Docker</li>
+      <li>GitLab CI</li>
+      <li>
+        This will take you to my
+        <strong
+          ><a href="https://github.com/farhaan-shamsee/web_development"
+            >GitHub Repo</a
+          ></strong
+        >
+      </li>
     </ul>
     <hr />
     <h3>Work Experience</h3>
-    <ul>
-        <li><strong>This needs info about tables. Will update this section soon</strong></li>
-    </ul>
+    <!-- below is the def of a table -->
+    <table cellspacing="10">
+      <!-- this is table header -->
+      <thead>
+        <!-- we create a row first -->
+        <tr>
+          <!-- we specify the table header -->
+          <th>Dates</th>
+          <th>Work</th>
+        </tr>
+      </thead>
+      <!-- this is table body -->
+      <tbody>
+        <tr>
+          <!-- this is table data -->
+          <td>2022-Present</td>
+          <td>DevOps Engineer, Siemens Technologies</td>
+        </tr>
+        <tr>
+          <td>2020-2021</td>
+          <td>DevSecOps Engineer, Sophos Technologies</td>
+        </tr>
+        <tr>
+          <td>2017-2020</td>
+          <td>Cloud Associate Engineer, Wipro Technologies</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+    <h3>Skills</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>Kubernetes</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Helm Charts</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>AWS</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>FluxCD</td>
+        <td>⭐⭐⭐⭐⭐</td>
+      </tr>
+    </table>
     <hr />
     <a href="./hobbies.html">Hobbies</a>
     <a href="./contact_me.html">Contact Me</a>
-</body>
-
+  </body>
 </html>
