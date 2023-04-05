@@ -1,0 +1,83 @@
+div {
+    background-color: #c9eeff;
+    padding: 20px;
+    font-family: verdana, sans-serif;
+}
+
+body {
+    margin: 0%;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+h1 {
+    /* 16px = 100% = 1em */
+    color: #66BFBF;
+    font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: "Montserrat", sans-serif;
+}
+
+.top-container {
+    background-color: #c9eeff;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.devops_span_text {
+    text-decoration: underline;
+}
+
+.web_dev_text {
+    text-decoration: brown wavy underline;
+}
+
+.python_text {
+    text-decoration: brown wavy underline;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.k8s-image {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+.aws-image {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}

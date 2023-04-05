@@ -2,98 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Farhaan's personal site</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Farhaan Shamsee</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="css/favicon.ico?v=2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <table cellspacing="20">
-      <td>
-        <img
-          src="./images/photo.png"
-          style="max-height: 200px; max-width: 200px"
-          alt="html image"
-        />
-      </td>
-      <td>
-        <h1>Farhaan Shamsee</h1>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" />
+      <h1>I'm Farhaan</h1>
+      <h2>
+        <span class="devops_span_text"> DevOps</span> Engineer learning Web
+        Development
+      </h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img" />
+      <img src="images/mountain.png" alt="mountain-img" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img src="images/photo.png" alt="my-pic" width="200px" height="200px" />
+        <h2>Hello.</h2>
         <p>
-          <em><strong>DevOps/GitOps</strong> Engineer at Siemens Technology</em>
+          I am an DevOps Engineer. Currently working at Siemens. 
+          I am trying to learn <span class="web_dev_text">Web development</span> and <span class="python_text">Python</span> from Dr. Angela.
         </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="k8s-image" src="images/kubernetes-icon.png" alt="" />
+          <h3>Kubernetes</h3>
+          <p>
+            Worked extensively on setting up and maintaining K8s cluster. Used Helm charts to deploy applications.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="aws-image" src="images/aws-icon.png" alt=""/>
+          <h3>Amazon Web Service</h3>
+          <p>
+            EC2, S3, EKS
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love DevOps as much as I do</h3>
         <p>
-          I am a DevOps Engineer working at Siemens Technology. Currently
-          learning Python and Web Development.
+            If you love DevOps as much as I do, lets meet. We can develop and operate while we chat.
         </p>
-        <p>
-          This page show information about myself. I will update this page as I
-          make progress in learning web development.
-        </p>
-      </td>
-    </table>
+        <a class="btn" href="mailto:@email.com">CONTACT ME</a>
+      </div>
+    </div>
 
-    <hr />
-    <h3>Tech Stack I currently work on</h3>
-    <ul>
-      <li>Kubernetes</li>
-      <li>Helm Charts</li>
-      <li>FluxCD</li>
-      <li>Docker</li>
-      <li>GitLab CI</li>
-      <li>
-        This will take you to my
-        <strong
-          ><a href="https://github.com/farhaan-shamsee/web_development"
-            >GitHub Repo</a
-          ></strong
-        >
-      </li>
-    </ul>
-    <hr />
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2022-Present</td>
-          <td>DevOps Engineer, Siemens Technologies</td>
-        </tr>
-        <tr>
-          <td>2020-2021</td>
-          <td>DevSecOps Engineer, Sophos Technologies</td>
-        </tr>
-        <tr>
-          <td>2017-2020</td>
-          <td>Cloud Associate Engineer, Wipro Technologies</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>Kubernetes</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>Helm Charts</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>AWS</td>
-        <td>⭐⭐⭐⭐</td>
-      </tr>
-      <tr>
-        <td>FluxCD</td>
-        <td>⭐⭐⭐⭐⭐</td>
-      </tr>
-    </table>
-    <hr />
-    <a href="./hobbies.html">Hobbies</a>
-    <a href="./contact_me.html">Contact Me</a>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://in.linkedin.com/in/farhaan-shamsee/">LinkedIn</a>
+      <a class="footer-link" href="https://github.com/farhaan-shamsee">GitHub</a>
+      <p>© 2023 @ Farhaan Shamsee.</p>
+    </div>
   </body>
 </html>
